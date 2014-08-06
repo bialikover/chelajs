@@ -1,0 +1,13 @@
+<a href="{{url}}" title="Agregalo a tu calendario" class="addthisevent">
+	Agregalo a tu calendario
+	<span class="_start">{{event.date_start | date("Y-m-d H:i:s", 360 )}} </span>
+	<span class="_end">{{event.date_start | date("Y-m-d", 360)}} {{ event.hour_end }}</span>
+	<span class="_zonecode">10</span>
+	<span class="_summary">{{event.name}}</span>
+	<span class="_description">{{event.except}}</span>
+	<span class="_location">{{event.address}}</span>
+	<span class="_organizer">Chela.js</span>
+	<span class="_organizer_email">siedrix@gmail.com</span>
+	<span class="_all_day_event">false</span>
+	<span class="_date_format">DD/MM/YYYY</span>
+</a>
